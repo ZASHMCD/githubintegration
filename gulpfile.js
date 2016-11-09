@@ -1,7 +1,7 @@
 "use strict";
 
-var gulp = require('gulp');
-var jshint = require('gulp-jshint');
+let gulp = require('gulp');
+let jshint = require('gulp-jshint');
 
 gulp.task('default',['jshint','test','serve']);
 
