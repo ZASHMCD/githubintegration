@@ -1,0 +1,11 @@
+before_script:
+  - npm install; npm install grunt -g
+script: gulp test
+langauge: node_js
+env:
+  - PORT=7777
+node_js:
+  - "6.9.1"
+  - "5"
+  - "0.12"
+  
