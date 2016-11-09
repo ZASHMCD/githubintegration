@@ -1,3 +1,4 @@
+sudo: required
 before_script:
   - npm install; npm install grunt -g
 script: gulp test
@@ -6,5 +7,3 @@ env:
   - PORT=7777
 node_js:
   - "6.9.1"
-  - "5.2"
-  - "5.1"
