@@ -1,6 +1,6 @@
 sudo: required
 before_script:
-  - npm install; npm install grunt -g
+  - npm install; npm install -g gulp
 script: gulp test
 langauge: node_js
 env:
